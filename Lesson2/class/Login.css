@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    background-color: white;
+    width: 400px;
+}
+.background{
+    display: flex;
+    background-color: #EBECF0;
+    width: 600px;
+    justify-content: center;
+}
+.header{
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+    font-size: 100px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 50px;
+    margin-top: 10px;
+}
+.hinhanh{
+    display: flex;
+    justify-content: center;
+}
+i{
+    background-color: white;
+    margin: 3px;
+}
+.tt{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+input{
+    width: 90%;
+}
+button{
+    width: 90%;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.lienket{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px){
+    .header{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .header{
+        font-size: 10px;
+        color: red;
+    }
+}

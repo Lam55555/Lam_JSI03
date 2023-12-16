@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    background-color: white;
+    width: 400px;
+    height: 450px;
+}
+.background{
+    display: flex;
+    background-color: #EBECF0;
+    width: 600px;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.header{
+    text-align: center;
+    color: white;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 50px;
+    
+}
+.hinhanh{
+    display: flex;
+    justify-content: center;
+}
+i{
+    background-color: white;
+    margin: 3px;
+}
+.content{
+
+}
+
+
