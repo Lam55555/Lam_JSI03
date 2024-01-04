@@ -5,7 +5,7 @@ class User {
 }
 
 const Lam = new User("Lam",123,21000139)
-console.log(Lam);
+// console.log(Lam);
 
 class Game extends User{
     constructor(name,password,uid, gamename){
@@ -14,6 +14,4 @@ class Game extends User{
 }
 
 const ten = new Game("Lam",123,21000139,"GI") 
-
-console.log(ten);
 

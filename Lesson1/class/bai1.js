@@ -57,12 +57,12 @@ let timlop = false;
 
 for (let person of student) {
     if (person.age == parseInt(nhaptuoi)) {
-        console.log(person.name)
+        console.log("Nguoi co tuoi la: "+person.name)
         timtuoi = true;
     }
 
     if (person.course.includes(nhaplop)) {
-        console.log(person.name)
+        console.log("nguoi co lop la: "+person.name)
         timlop = true;
     }
 }
