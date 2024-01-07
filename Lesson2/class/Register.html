@@ -6,32 +6,43 @@
     <title>Document</title>
     <link rel="stylesheet" href="/Lesson2/class/Register.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 </head>
 <body>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      </script>
+
+
     <div class="background">
         <div class="main">
             <div class="header">Regisger</div>
             <div class="content">
                 <div class="hinhanh"><img src="/img/images1920558_4053279_16.jpg" alt=""></div>
-                
-                <div class="username">
-                        <i class="fa-solid fa-user"></i>
-                        <input type="text" placeholder="Username">
-                </div>
 
-                <div class="password">
+                <div class="pass">
                     <i class="fa-solid fa-lock"></i>
-                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Password" id="password">
                 </div>
 
-                <div class="email">
+                <div class="emeo">
                     <i class="fa-solid fa-envelope"></i>
-                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Email" id="email">
                 </div>
-                <button>Sign up</button>
+                <button onclick="signUp()">Sign up</button>
                 <div>Have an account?<a href="">Login</a></div>
             </div>
         </div>
     </div>
 </body>
+<script src="/Lesson2/class/Register.js"></script>
 </html>

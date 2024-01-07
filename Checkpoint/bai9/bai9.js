@@ -8,5 +8,4 @@ for(var i = 0; i<m_number.length; i++)
 {
     const mSquared = Math.pow(m_number[i],2)
     console.log(mSquared);
-
 }
